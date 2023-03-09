@@ -138,7 +138,7 @@ class MainApp(QMainWindow):
         self.saveBtn.clicked.connect(self.saveFolderOpen)
 
         # Window #
-        self.setWindowTitle("Historical Linguistics for Middle Korean (ver. 2.0.0)")
+        self.setWindowTitle("Historical Linguistics for Middle Korean (ver. 2.0.1)")
         self.resize(800, 800)
         self.center()
         self.show()

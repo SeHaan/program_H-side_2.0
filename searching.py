@@ -144,4 +144,4 @@ def searchForWord(data_direc, save_direc, obj_word, dict_0_TOTAL):
                 result_line = ''
 
     f.close()
-    return full_text, iter
+    return full_text, iter - 1
